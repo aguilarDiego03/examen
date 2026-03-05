@@ -50,7 +50,7 @@ def main(page: ft.Page):
     duracion = ft.Slider(
         min=1,
         max=5,
-        divisions=5,
+        divisions=4,
         label="{value} Nivel de experiencia",
         value=1,
         width=400
